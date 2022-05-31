@@ -2,7 +2,9 @@
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
-
+@production
+    <link rel="stylesheet" href="{{ secure_asset('css/AdminLTE.min.css') }}">
+@endproduction
 define('LARAVEL_START', microtime(true));
 
 /*
