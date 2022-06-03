@@ -3,9 +3,7 @@
 namespace App\Providers;
 use \Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
-@production
-    <link rel="stylesheet" href="{{ secure_asset('css/AdminLTE.min.css') }}">
-@endproduction
+
 class AppServiceProvider extends ServiceProvider
 {
     /**
